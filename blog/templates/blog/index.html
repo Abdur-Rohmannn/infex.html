@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>
+            Данные пользователя
+
+        </legend>
+        <label>
+            Email:
+            <input tipe="email" name="email" size="30" maxlenght="100">
+
+        </label>
+        <br/>
+    </fieldset>
+    <br/>
+    <fieldset>
+        <legend>
+            Ваше мнение:
+        </legend>
+        <p>
+            <label for="hear-about">
+                Как вы узнали о нас?
+
+            </label>
+            <select name="referrer" id="hear-about">
+                <option value="google">Google</option>
+                <option value="yandex">Yandex</option>
+                <option value="view">Реклама</option>
+                <option value="fr">От друзей</option>
+                <option value="Tor">Tor</option>
+            </select>
+        </p>
+        <p>
+            Воспользуетесь услугой еще раз?
+        </p>
+        <br/>
+        <label>
+            <input tipe="radio" name="rating" value="yes" />
+            Да
+        </label>
+        <label>
+            <input tipe="radio" name="rating" value="no" />
+            Нет
+        </label>
+        </p>
+        <p>
+            <label for="comments">
+                Коментарий:
+            </label>
+            <br/>
+            <textarea rows="4" cols="10" id="comments">
+            </textarea>
+        </p>
+        <label>
+            <input type="checkbox" name="subs" checked="checked">
+        </label>
+    <br/>
+        <input type="submit" value="Нажми"/>
+
+
+    </fieldset>
+    </form>
+    </body>
+</html>
